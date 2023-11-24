@@ -112,7 +112,7 @@ jobs:
         run: |
           rm -rf ./docs
           rm -rf ./i18n/zh/docusaurus-plugin-content-dos/current
-          mkdir -p ./i18n/zh/docusaurus-plugin-content-dos
+          mkdir -p ./i18n/zh/docusaurus-plugin-content-docs
           mv ../en ./docs
           mv ../zh ./i18n/zh/docusaurus-plugin-content-docs/current
           yarn install --frozen-lockfile
