@@ -6,7 +6,7 @@ displayed_sidebar: "English"
 
 ## Alibaba cloud OSS backup and restore
 
-StarRocks supports backing up data to alicloud OSS / AWS S3 (or object storage compatible with S3 protocol). Suppose there are two StarRocks clusters, namely DB1 cluster and DB2 cluster. We need to back up the data in DB1 to alicloud OSS and then restore it to DB2 when necessary. The general process of backup and recovery is as follows:
+StarRocks supports backing up data to alicloud OSS / AWS S3 (or object storage compatible with S3 protocol). Suppose there are two StarRocks clusters, namely DB1 cluster and DB2 cluster. We need to back up the data in DB1 to Alibaba Cloud OSS and then restore it to DB2 when necessary. The general process of backup and recovery is as follows:
 
 ### Create a cloud repository
 
